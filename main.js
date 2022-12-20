@@ -15,7 +15,7 @@ function check_enter(){
     }
 }
 function hover(){
-    document.getElementById("ex").innerHTML="fuck you";
+    document.getElementById("ex").innerHTML="gatcha";
 }
 function undo(){
     document.getElementById("ex").innerHTML=" example haha";
