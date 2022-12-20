@@ -1,5 +1,6 @@
 function add_ul(){
     const tmp = document.getElementById("ul-input").value;
+    if(tmp == "") {return;}
     const li = document.createElement("li");
     li.setAttribute('id', tmp);
     const textNode = document.createTextNode(tmp);
